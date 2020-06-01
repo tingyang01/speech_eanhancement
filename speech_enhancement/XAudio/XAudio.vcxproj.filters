@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="feature">
+      <UniqueIdentifier>{0d652005-a0f6-4ac8-a542-97e672ba97e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\core">
+      <UniqueIdentifier>{185f4eca-78c4-47f2-a488-766309656c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\fft">
+      <UniqueIdentifier>{f4b60803-84a2-410c-9d46-a39156062639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\mfcc">
+      <UniqueIdentifier>{7511b9d6-9813-4391-a794-0eae5739cfa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\onset-detection-functions">
+      <UniqueIdentifier>{0101b531-6f91-4a8c-ab20-f38fa2f9fd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\pitch">
+      <UniqueIdentifier>{4f777e3a-0aa5-4321-8951-b9937c436fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\smooth">
+      <UniqueIdentifier>{c7d8b9be-7baf-4e00-a85a-b20b0267ec80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\window">
+      <UniqueIdentifier>{79eff823-b2ff-415a-8d47-615bd123fb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\fft\kissfft-130">
+      <UniqueIdentifier>{683e7ddc-d18d-4899-965e-410eb7386ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\smooth\savitzky_golay">
+      <UniqueIdentifier>{4b8a01d6-0998-4918-855a-986035cc63b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmm">
+      <UniqueIdentifier>{f755a478-b3cf-4f29-bb54-044622449425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmm\core">
+      <UniqueIdentifier>{a9a38e5e-da1a-4633-97d4-c3fcd87d2f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmm\core\Threadpool">
+      <UniqueIdentifier>{c982a0aa-dc0d-4078-a356-c52317c7236e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{7a1db17a-6cd3-4c36-bb35-d0540d657130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io\wave">
+      <UniqueIdentifier>{190a5ce8-c84f-4ef3-ba8f-4301b3ded355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io\wave\header">
+      <UniqueIdentifier>{f4708da0-303a-449d-96c1-dbb31bd3416a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\librosa">
+      <UniqueIdentifier>{eb3b4a88-7395-4eea-9ef6-1ef262e55423}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\FeatureExtractor.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\Gist.h">
+      <Filter>feature</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\core\CoreFrequencyDomainFeatures.h">
+      <Filter>feature\core</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\core\CoreTimeDomainFeatures.h">
+      <Filter>feature\core</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\fft\kiss_fft130\_kiss_fft_guts.h">
+      <Filter>feature\fft\kissfft-130</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\fft\kiss_fft130\kiss_fft.h">
+      <Filter>feature\fft\kissfft-130</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\fft\kiss_fft130\kissfft.hh">
+      <Filter>feature\fft\kissfft-130</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\fft\FFT.h">
+      <Filter>feature\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\mfcc\MFCC.h">
+      <Filter>feature\mfcc</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\window\WindowFunctions.h">
+      <Filter>feature\window</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\window\windowing.h">
+      <Filter>feature\window</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\smooth\savitzky_golay\SGSmooth.hpp">
+      <Filter>feature\smooth\savitzky_golay</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\pitch\Yin.h">
+      <Filter>feature\pitch</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\onset-detection-functions\OnsetDetectionFunction.h">
+      <Filter>feature\onset-detection-functions</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\Threadpool\Threadpool.hpp">
+      <Filter>gmm\core\Threadpool</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\common.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\datamanip.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\dataset.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\fastexp.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\gmm.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\helper.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\kmeans.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\kmeans++.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\kmeansII.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\pygmm.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\random.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\timer.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\type.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\core\util.hh">
+      <Filter>gmm\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\GaussianMixtureModel.h">
+      <Filter>gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="gmm\GMMSet.h">
+      <Filter>gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="io\CWave.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\wave\error.h">
+      <Filter>io\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="io\wave\file.h">
+      <Filter>io\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="io\wave\header.h">
+      <Filter>io\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="io\wave\header_list.h">
+      <Filter>io\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="io\wave\header\data_header.h">
+      <Filter>io\wave\header</Filter>
+    </ClInclude>
+    <ClInclude Include="io\wave\header\fmt_header.h">
+      <Filter>io\wave\header</Filter>
+    </ClInclude>
+    <ClInclude Include="io\wave\header\riff_header.h">
+      <Filter>io\wave\header</Filter>
+    </ClInclude>
+    <ClInclude Include="io\wave\header\wave_header.h">
+      <Filter>io\wave\header</Filter>
+    </ClInclude>
+    <ClInclude Include="feature\librosa\spectrum.h">
+      <Filter>feature\librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="io\AudioFile.h">
+      <Filter>io</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="feature\FeatureExtractor.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\Gist.cpp">
+      <Filter>feature</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\core\CoreFrequencyDomainFeatures.cpp">
+      <Filter>feature\core</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\core\CoreTimeDomainFeatures.cpp">
+      <Filter>feature\core</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\fft\kiss_fft130\kiss_fft.c">
+      <Filter>feature\fft\kissfft-130</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\fft\FFT.cpp">
+      <Filter>feature\fft</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\mfcc\MFCC.cpp">
+      <Filter>feature\mfcc</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\window\WindowFunctions.cpp">
+      <Filter>feature\window</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\window\windowing.cpp">
+      <Filter>feature\window</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\smooth\savitzky_golay\SGSmooth.cpp">
+      <Filter>feature\smooth\savitzky_golay</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\pitch\Yin.cpp">
+      <Filter>feature\pitch</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\onset-detection-functions\OnsetDetectionFunction.cpp">
+      <Filter>feature\onset-detection-functions</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\datamanip.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\fastexp.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\gmm.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\gmmubm.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\kmeans.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\kmeans++.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\kmeansII.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\main.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\pygmm.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\core\Threadpool.cc">
+      <Filter>gmm\core</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\GaussianMixtureModel.cpp">
+      <Filter>gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="gmm\GMMSet.cpp">
+      <Filter>gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="io\CWave.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="io\wave\file.cc">
+      <Filter>io\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="io\wave\header.cc">
+      <Filter>io\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="io\wave\header_list.cc">
+      <Filter>io\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="io\wave\header\data_header.cc">
+      <Filter>io\wave\header</Filter>
+    </ClCompile>
+    <ClCompile Include="io\wave\header\fmt_header.cc">
+      <Filter>io\wave\header</Filter>
+    </ClCompile>
+    <ClCompile Include="io\wave\header\riff_header.cc">
+      <Filter>io\wave\header</Filter>
+    </ClCompile>
+    <ClCompile Include="io\wave\header\wave_header.cc">
+      <Filter>io\wave\header</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\librosa\spectrum.cpp">
+      <Filter>feature\librosa</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
