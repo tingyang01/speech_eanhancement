@@ -1,0 +1,3 @@
+I have a Python project which reads the signal from microphone array, implements SRP-PHAT algorithm and gives an output of the Direction of Arrival Estimation (Python notebook demo and test audio included). I need someone who UNDERSTANDS the algorithm, design and rewrite that project in C++ with me.
+
+The deliverable will be a project fully function as Python does. Outputs of each step should also align that of Python.
