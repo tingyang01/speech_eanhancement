@@ -1,0 +1,3 @@
+The attached Python program has an easy signal beamforming function. Need someone to reawrite it in C++.  There is only one difference, which is C++ should read the raw .pcm audio file instead of .wav as Python does.
+
+Deliverable will be a C++ program in WIndows Visual Stusio 2017, which has the same function with Python program and is well structured.
