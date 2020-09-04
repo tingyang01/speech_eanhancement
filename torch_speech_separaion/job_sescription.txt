@@ -1,0 +1,9 @@
+I have a Deep Learning project written in Python. The program has 2 audio inputs, predicts a mask for one audio using an LSTM model, and outputs a masked audio (in C++ program you should write the output audio into a file). Data preprocessing includes stft calculation. Please find the entire project in the attachment.
+
+Please rewrite the program in C++ in Visual Studio 2017. The audio inputs should first convert to 16bit int file.
+
+Please include how you plan to calculate stft in your proposal.
+
+I will increase the budget to $1500 if you can make it run in real time (16ms per frame).
+
+The deliverable would be a Visual Studio progam which has the same funcionality with the Python demo, and a comprehensive document.
